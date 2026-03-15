@@ -1,0 +1,35 @@
+{
+  "object_identity": {
+    "rule_id": "object_identity",
+    "name": "Object Identity",
+    "domain": "english",
+    "pattern": "[any] = OBJECT",
+    "weight": 2.0,
+    "confidence": 0.15,
+    "examples": [],
+    "created_at": "2026-03-15T07:46:49.437794",
+    "updated_at": "2026-03-15T07:46:51.405315"
+  },
+  "number_is_object": {
+    "rule_id": "number_is_object",
+    "name": "Number is Object",
+    "domain": "math",
+    "pattern": "[number] = OBJECT",
+    "weight": 1.5,
+    "confidence": 0.0,
+    "examples": [],
+    "created_at": "2026-03-15T19:24:14.729552",
+    "updated_at": "2026-03-15T19:24:14.729660"
+  },
+  "successor_rule": {
+    "rule_id": "successor_rule",
+    "name": "Successor Rule",
+    "domain": "math",
+    "pattern": "[n] -> [n+1]",
+    "weight": 2.0,
+    "confidence": 0.0,
+    "examples": [],
+    "created_at": "2026-03-15T19:24:14.795311",
+    "updated_at": "2026-03-15T19:24:14.795396"
+  }
+}

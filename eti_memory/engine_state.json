@@ -1,0 +1,90 @@
+{
+  "completed": [
+    "eng_object_abstraction",
+    "math_num_obj",
+    "math_count_1_10"
+  ],
+  "transfer_map": {},
+  "domains": {
+    "english": {
+      "domain_id": "english",
+      "name": "English",
+      "description": "The Base Abstraction",
+      "transfer_from": [],
+      "lessons": [
+        {
+          "lesson_id": "eng_object_abstraction",
+          "name": "English (The Base Abstraction)",
+          "domain": "english",
+          "rule_ids": [
+            "object_identity"
+          ],
+          "description": "",
+          "difficulty": 0.5,
+          "competency_threshold": 0.95,
+          "epochs": 100,
+          "prerequisite_ids": [],
+          "completed": true,
+          "accuracy": 0.9999722320866512
+        }
+      ]
+    },
+    "math": {
+      "domain_id": "math",
+      "name": "Mathematics",
+      "description": "Number counting and sequential progression",
+      "transfer_from": [],
+      "lessons": [
+        {
+          "lesson_id": "math_num_obj",
+          "name": "Numbers as Objects",
+          "domain": "math",
+          "rule_ids": [
+            "number_is_object"
+          ],
+          "description": "",
+          "difficulty": 0.5,
+          "competency_threshold": 0.9,
+          "epochs": 50,
+          "prerequisite_ids": [],
+          "completed": true,
+          "accuracy": 0.9999898525231175
+        },
+        {
+          "lesson_id": "math_count_1_10",
+          "name": "Counting 1 to 10",
+          "domain": "math",
+          "rule_ids": [
+            "successor_rule"
+          ],
+          "description": "",
+          "difficulty": 0.5,
+          "competency_threshold": 0.85,
+          "epochs": 100,
+          "prerequisite_ids": [
+            "math_num_obj"
+          ],
+          "completed": true,
+          "accuracy": 0.9999850426288633
+        },
+        {
+          "lesson_id": "math_count_10_99",
+          "name": "Counting 10 to 99",
+          "domain": "math",
+          "rule_ids": [
+            "successor_rule"
+          ],
+          "description": "",
+          "difficulty": 0.5,
+          "competency_threshold": 0.8,
+          "epochs": 100,
+          "prerequisite_ids": [
+            "math_count_1_10"
+          ],
+          "completed": false,
+          "accuracy": 0.0
+        }
+      ]
+    }
+  }
+}
