@@ -1,0 +1,30 @@
+# CogniArch Requirements
+
+## Core Dependencies
+
+numpy>=1.24.0
+scipy>=1.10.0
+
+## Optional Dependencies
+
+# For GPU acceleration
+# jax>=0.4.0
+# jaxlib>=0.4.0
+
+# For visualization
+# matplotlib>=3.7.0
+
+# For testing
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+
+# For documentation
+# sphinx>=6.0.0
+# sphinx-rtd-theme>=1.2.0
+
+## Development Dependencies
+
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.0.0
+# pre-commit>=3.0.0
